@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func gorutine() {
 
 	for i := 1; i < 7; i++ {
 		go sum(i)
