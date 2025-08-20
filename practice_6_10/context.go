@@ -10,7 +10,7 @@ const (
 	userId = 0
 )
 
-func main() {
+func contextFunc() {
 
 	ctx := context.WithValue(context.Background(), userId, 1)
 

@@ -29,6 +29,6 @@ func buy_wine(age, money int) (int, error) {
 	} else if age < 18 {
 		return money, errors.New("sorry, you are little")
 	} else {
-		return money, errors.New("don't enougt money")
+		return money, errors.New("don't enough money")
 	}
 }
