@@ -6,7 +6,6 @@ import (
 	. "golang.org/x/exp/constraints"
 )
 
-<<<<<<< HEAD
 type Person struct {
 	Name string
 	Age  int
@@ -72,7 +71,7 @@ func CopySlice(sl, cp []int) {
 
 func MutateSlice(sl []int, i, val int) {
 	sl[i] = val
-=======
+
 func main() {
 	list := []int{1, 2, 3, 4}
 	listAge := []int{15, 24, 75, 19}
@@ -98,8 +97,6 @@ func main() {
 		return true
 	}
 	fmt.Println(Filter(listAge, filterFunc))
->>>>>>> main
-}
 
 func IsContains[T comparable](n T, list []T) bool {
 	for _, v := range list {
